@@ -1,0 +1,15 @@
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
+import { GlobalSearch } from '../GlobalSearchComponent';
+import { decorators, heightProp, delayData } from './helper';
+
+<Meta title="GlobalSearch" decorators={decorators} />
+
+# Global Search
+
+**NOTE:** The component should have a `ClientSDKProvider` as a parent component in react component tree.
+
+<Preview>
+  <Story name="Basic usage" height={heightProp}>
+    <GlobalSearch />
+  </Story>
+</Preview>
